@@ -38,7 +38,7 @@ h2 {
     color: deeppink;
   }
   
-  h3, h4 {
+  h2, h3, h4 {
     font-weight: 600;
     color: var(--dark-color);
   }
@@ -46,7 +46,12 @@ h2 {
   .post {
     border:1px solid var(--dark-color);
     margin-bottom: 1em;
-    padding: 10px 20px;
+    padding: .5em 1em;
+
+    .img-container{
+        aspect-ratio: 3/2;
+    }
+
     img {
       width: 100%;
       height: auto;
