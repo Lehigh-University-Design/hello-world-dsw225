@@ -1,0 +1,27 @@
+.deck {
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card {
+    background-color: beige;
+    width: 400px;
+    padding: 50px;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile_pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    background: url(../images/Face.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
